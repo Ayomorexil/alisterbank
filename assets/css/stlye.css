@@ -44,7 +44,9 @@ background-color: var(--white);
     border-radius: 5px;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);}
-    
+
+    /*::::::::TOP NAV::::::::  */
+    /*::::::::TOP NAV::::::::  */
     .topnav{
         background-color: var(--light-grey-color);
         min-height: 7vh;
@@ -101,5 +103,45 @@ background-color: var(--white);
 }
 .topnav .container .socials span i{
     background-color: var(--grey-color);
+}
+
+
+    /*::::::::HEADER::::::::  */
+    /*::::::::HEADER::::::::  */
+header{
+    background-color: var(--white-color);
+    min-height: 20vh;
+    border: 2px solid rgb(9, 0, 128);
+}
+header .container{
+    min-height: 20vh;
+    flex-direction: column;
+}
+header .container .top{
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid green;
+    width: 100%;
+    display: flex;
+    min-height: 10vh;
 
 }
+header .container .top .top-left{}
+header .container .top .top-left img{}
+header .container .top .top-right{
+    border: 2px solid red;
+        display: flex;
+        gap: 1.5rem;
+    
+}
+header .container .top .top-right span{
+}
+header .container .top .top-right span a{
+    color: var(--black-color);
+}
+header .container .top .top-right span a:hover{
+    color: var(--primary-color);
+}
+header .container .top .top-right span a i{}
+
+
