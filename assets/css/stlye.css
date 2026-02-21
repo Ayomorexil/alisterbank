@@ -205,7 +205,138 @@ header .container .down ul li a:hover{
 
 /*   */
    
-    
-}
-header .container .down
+/* :::::MEDIA QUERY::::: */
 
+
+  /*::::::::TOP NAV::::::::  */
+  /*::::::::TOP NAV::::::::  */
+
+@media only screen and (max-width: 600px) 
+{
+
+     .topnav{
+        background-color: var(--light-grey-color);
+        min-height: 10vh;
+        width: 100%;
+    }
+   
+    .topnav .container{
+        height: 10vh;
+        flex-direction: column}        
+
+    
+.topnav .container .links ul li{
+      font-size: .65rem;
+}
+
+.topnav .container .links  ul li a{
+    color: var(--text-color);
+      padding: 0.1rem .15rem;
+
+}
+
+.topnav .container .socials{
+    height: 5vh;
+}
+.topnav .container .socials span{
+     border: 2px solid var(--grey);
+     color: var(--off-white);
+     padding: .01rem;
+     font-size: .5rem;
+     border-radius: 50%;
+     background-color: var(--grey);
+}
+
+    
+ /*::::::::HEADER::::::::  */
+  /*::::::::HEADER::::::::  */
+ 
+header{
+    background-color: var(--white-color);
+    min-height: 20vh;
+    /* border: 2px solid rgb(9, 0, 128); */
+}
+header .container{
+    min-height: 20vh;
+    flex-direction: column;
+}
+header .container .top{
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+       width: 100%;
+    display: flex;
+    min-height: 10vh;
+
+}
+header .container .top .top-left{
+    width: 40vw;
+}
+header .container .top .top-left img{
+    width: 100%;
+}
+header .container .top .top-right{
+         display: flex;
+        gap: .51rem;  
+}
+header .container .top .top-right span a{
+    color: var(--black-color);
+    font-size: .7rem;
+}
+header .container .top .top-right span a:hover{
+    color: var(--primary-color);
+}
+header .container .down {
+    width: 100%;
+    min-height: 10vh;
+}
+header .container .down ul{
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+header .container .down ul li a{
+    font-size: .43rem;
+}
+
+header .container .down ul li a{
+    /* color: var(--black-color);
+    position: relative;
+      transform: scaleX(1);
+     transition: transform .3s ease-in-out; */
+  color: color: var(--black-color);;
+  /* code pen  */
+  position: relative;
+  transition: transform .1s ease-in-out;
+}
+
+header .container .down ul li a::before, 
+header .container .down ul li a::after{
+    content: "";
+  position: absolute;
+  background-color:var(--primary-color);
+  transition: transform .5s;
+}
+header .container .down ul li a::after{
+  left: 0;
+  width: 100%;
+  height: 1px;
+  bottom: -10px;
+  transform: scaleX(0);
+  transform-origin: left;}
+  
+ header .container .down ul li a:hover::after{
+    transform: scaleX(1);} 
+
+
+
+  /*::::::::MAIN ::::::::  */
+  /*::::::::MAIN::::::::  */
+
+
+
+
+  /*::::::::FOOTER ::::::::  */
+  /*::::::::FOOTER::::::::  */
