@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Alisterbank| Lawal babatunde afees</title>
-    <link rel="stylesheet" href="/css/stlye.css">
+    <link rel="stylesheet" href="/assets/css/stlye.css">
     <!-- fav-icon -->
     <link rel="shortcut icon" href="/assets/img/fav-icon.PNG" type="image/x-icon">
     <!-- font icon -->
@@ -12,10 +12,8 @@
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- swiper Js for slider -->
-     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
+     
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <!-- custom css -->
 </head>
 <body>
@@ -47,7 +45,7 @@
         <div class="container">
             <div class="top">
                 <div class="top-left">
-                    <img src="/img/logo.png" alt="">
+                    <img src="/assets/img/logo.png" alt="">
                 </div>
                 <div class="top-right">
                     <span><a href="">
@@ -83,7 +81,61 @@
     
     <!-- main -->
       <main>
+   <!-- :::: banner Section -->
+    <section id="banner">
+   <div class="swiper mySwiper" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide ">
+        <div class="bg-slide slide-1">
+            <!-- <img src="/assets/img/slider2.jpg" alt=""> -->
+            <div class="container">
+                <div class="text-cont">
+                     <h1>Gives Back To Your <br>Community <span>.</span></h1>
+                <p>Make It Easy For You</p>
+                <a href="" class="btn">find out more</a>
+                </div>
+               
+            </div>
+        </div>
+         <div class="bg-slide slide-2">
+            <!-- <img src="/assets/img/slider2.jpg" alt=""> -->
+            <div class="container">
+                <div class="text-cont">
+                     <h1>Connect all your<br>banking needs<span>.</span></h1>
+                <p>Make It Easy For You</p>
+                <a href="" class="btn">find out more</a>
+                </div>
+               
+            </div>
+        </div>
+        <div class="bg-slide slide-3">
+            <!-- <img src="/assets/img/slider2.jpg" alt=""> -->
+            <div class="container">
+                <div class="text-cont">
+                     <h1>Connect all your<br>banking needs<span>.</span></h1>
+                <p>Make It Easy For You</p>
+                <a href="" class="btn">find out more</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+      
+   </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    </section>
+   <!-- :::: partners Section -->
+    <section id="partners"></section>
+   <!-- ::::our services  Section -->
+   <section id="services"></section>
+   <!-- ::::business  banking Section -->
+   <section id="banking"></section>
    
+   <!-- ::::stay connected section -->
+    <Section id="conntected"></Section>
+
         </main>
         
         <!-- footer -->
@@ -94,16 +146,19 @@
         
 
 <!-- swipper js for slider -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js">
-    
-</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <!-- aos js   -->
 <scrip src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
      <script>
             /*--aos js--*/
-            AOS.init();
-            /*--swiper js--*/
-            var swiper = new Swiper(".mySwiper", {});
+            AOS.init();</script>
+            <!-- /*--swiper js--*/ -->
+            <script> var swiper = new Swiper(".mySwiper", {autoplay={
+    delay: 2000,
+    disableOnInteraction: false,
+  }});
+            
+            </script>
             
         </script>  
 
