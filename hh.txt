@@ -1,0 +1,51 @@
+<section id="banner">
+             <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        
+                        <div class="bg-slide slide-1">
+                            <!-- <img src="/assets/img/slider2.jpg" alt=""> -->
+                            <div class="container">
+                                <div class="text-cont">
+                                    <h1>Gives Back To Your <br>Community <span>.</span></h1>
+                                <p>Make It Easy For You</p>
+                                <a href="" class="btn">find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-slide slide-2">
+                        <!-- <img src="/assets/img/slider2.jpg" alt=""> -->
+                        <div class="container">
+                            <div class="text-cont">
+                                <h1>Gives Back To Your <br>Community <span>.</span></h1>
+                            <p>Make It Easy For You</p>
+                            <a href="" class="btn">find out more</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-slide slide-3">
+                        <!-- <img src="/assets/img/slider2.jpg" alt=""> -->
+                        <div class="container">
+                            <div class="text-cont">
+                                <h1>Gives Back To Your <br>Community <span>.</span></h1>
+                            <p>Make It Easy For You</p>
+                            <a href="" class="btn">find out more</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+                    
